@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url(fonts/OpenSans_Condensed-Regular.ttf);
+}
+/*First block for all content*/
+.all-content {
+    margin: 0;
+    width: 1920px;
+    height: 847px;
+    background: var(--Black-5, rgba(30, 40, 50, 0.05));
+}
+
+/*div container*/
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+/*div container header*/
+.containerheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1320px;
+}
+/*input type search*/
+.search {
+    width: 200px;
+    height: 30px;
+    padding: 20px;
+    border: none;
+    background: transparent;
+    background-image: url(Icon/iconsearch.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    outline: none;
+
+}
+/*div icon svg*/
+.div-icon-svg {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/*div icon svg paragraph "coral"*/
+.paragraph-coral {
+    font-size: 28px;
+    margin: 0;
+}
+/*div sing up "account or shoping"*/
+.div-sing-up {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.account-shoping{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.div-sing-up-ancor {
+    text-decoration: none;
+    color: #1E2832;
+    font-size: 18px;
+    font-family: "roboto";
+}
+/* line hr element*/
+hr {
+    width: 1320px;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    background-color: #E3E3E3;
+    border: none;
+}
+/*div menu*/
+.div-menu {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+/*div menu ancor tag*/
+.div-menu-ancor {
+    font-family: "OpenSans";
+    font-size: 16px;
+    color: var(--Dark, #000);
+    text-decoration: none;
+
+}
+/*div product*/
+.div-product {
+    display: flex;
+    justify-content: center;
+    margin-top: 81px;
+    margin-right: 90px;
+}
+
+.div-product-header {
+    display: flex;
+    justify-content: space-between;
+    height: 562px;
+    width: 1226px;
+
+}
+
+.div-product-content {
+    display: flex;
+    flex-direction: column;
+    
+}
+ /*div product paragraph "collection"*/
+.product-paragraph-colection {
+    font-family: "roboto";
+    font-size: 74px;
+    font-weight: 300;
+    margin-top: 74px;
+    margin-bottom: 0;
+}
+/*div product paragraph "content"*/
+.div-product-paragraph {
+    width: 682px;
+    height: 119px;
+    margin-top: 52px;
+    font-family: "roboto";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 55px;
+    
+}
+
+/*div product input button "shop buton"*/
+.shopbutton {
+    width: 223px;
+    height: 72px;
+    margin-top: 66px;
+    background: var(--Black, #1E2832);
+    background-image: url(Icon/icon2.png);
+    background-repeat: no-repeat;
+    background-position: 26px 50%;
+    color: var(--White, #FFF);
+    font-family: "roboto";
+    font-size: 29px;
+    font-weight: 400;
+    padding-left: 22px;
+    border: none;
+    }
+/*div product image*/
+.div-product-image {
+    height: 562px;
+    display: flex;
+
+}
+.div-product-image-engin {
+    position: relative;
+    border-radius: 160px 0px 160px 0px;
+
+}
+/*image rectangle*/
+.image-Rectangle {
+    position: absolute;
+    right: 376px;
+    top: 276px;
+}
+
+/* background image*/
+.bacground-image-frame {
+    position: absolute;
+    top: 616.62px;
+}
+
+.bacground-image-vector {
+    position: absolute;
+    top: 365px;
+    right: 0;
+}
+
+/*container brand*/
+.containe-brand {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.container-brand-logo {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+}
+/*container hot category galery*/
+.container-hot-category {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    
+}
+
+.container-hot-category-position {
+    width: 1320px;
+    height: 648px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.container-hot-category-image1 {
+    padding-top: 16px;
+    padding-left: 24px;
+
+
+}
+
+.container-hot-category-image2 {
+    width: 648px;
+    height: 644px;
+}
+
+.container-hot-category-image3 {
+    padding-left: 24px;
+}
+
+.div-rotate-paragraph {
+    position: absolute;
+    left: -73px;
+    top: 1390px;
+    width: 648px;
+    height: 52px; 
+    transform: rotate(-90deg);
+
+}
+
+.rotate-paragraph {
+    text-align: center;
+    font-family: "roboto";
+    font-size: 34px;
+    text-transform: uppercase;
+}
